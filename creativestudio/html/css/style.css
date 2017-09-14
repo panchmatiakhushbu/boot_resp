@@ -1,0 +1,161 @@
+*{margin:0 auto; padding:0px; list-style:none; text-decoration:none; outline:none; border-color:none; box-sizing:border-box;}
+
+.container{width:100%; max-width:960px;}
+
+.header{float:left; width:100%;  border-top:30px solid #000; }
+
+.email_id{float:right;}
+.email_id p{float:right; font-size:14px;  padding-top:20px; color:#bababa;}
+
+
+.logo{float:left;}
+.logo a{float:left; width:100%;}
+
+.menu{float:left; width:100%; padding-top:30px;}
+.menu li{float:left; }
+.menu li a{float:right; padding-right:35px; color:#fb6041; font-size:14px; border-radius:4px; text-transform:uppercase; position:relative; text-decoration:none; }
+.menu ul{float:left;}
+.menu ul li.active a, .menu ul li a:hover{color:#000; }
+
+.section_first{float:left; width:100%; margin-top:20px; }
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+
+.background{float:left;  background:#f78800;}
+.text{float:left; margin-top:20px; }
+.text h5{float:left; font-size:75px; color:#FFF; margin-left:40px;}
+.info{float:left; margin-left:40px; padding:10px; }
+.info p{float:left; font-size:14px; background:#000; color:#999898; padding:10px;}
+.info a{float:left; font-size:14px; background:#000; color:#f78800; padding:10px;}
+
+.image{float:left; width:100%; margin-left:-24px;}
+.imade a{float:right; width:100%; padding-right:20px;}
+
+.section_second{float:left; width:100%; margin-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.line1{float:left; width:100%;  padding:3px; background:#000; margin-top:10px; margin-bottom:10px;}
+.aboutus{float:left;}
+.aboutus a{float:left; margin-right:20px;}
+.aboutus h3{float:left; font-size:16px;}
+.aboutus p{float:left; font-size:14px;} 
+
+.aboutus h4{float:left; font-size:16px;}
+
+
+.section_third{float:left; width:100%; padding-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.ourportfolio{float:left;}
+.ourportfolio h3{float:left; font-size:16px;}
+.ourportfolio a{float:left; margin-right:20px;}
+.images{float:left;} 
+.images a{float:left; width:100%;}
+
+
+.section_forth{float:left; width:100%; padding-top:20px;}
+.line{float:left; border-top:3px solid #bababa; padding-top:20px;}
+.blogupdate{float:left;}
+.blogupdate a{float:left; margin-right:20px;}
+.blogupdate h3{float:left; font-size:16px;}
+.blogupdate p{float:left; font-size:14px;}
+.connectwithus{float:right;}
+
+.connectwithus h3{float:right; font-size:16px;}
+.icon{float:right;}
+.icon a{float:left; margin-right:7px;}
+
+.footer{float:left; width:100%; background:#e2e2e2; margin-top:20px; }
+.footer_menu{ float:left;}
+.footer_menu li{float:left;  padding-top:20px;}
+.footer_menu ul{float:left; }
+.footer_menu li a{float:left; padding-right:10px; color:#9b9b9b; font-size:14px;  }
+.footer_menu p{float:left; font-size:14px;  color:#9b9b9b;}
+.footer_logo{float:right;}
+.footer_logo a{float:right; width:100%;  padding-top:20px;}
+
+
+
+.topnav {
+	overflow: hidden;
+}
+.topnav a {
+	float: left;
+	display: block;
+	color: #F90;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+.topnav a:hover {text-decoration: none;}
+.topnav .icon {
+	display: none;
+}
+
+@media screen and (max-width:1199px) 
+{
+.wrapper {width: 96%}
+
+}
+@media screen and (max-width:991px)
+{
+	.menu li a{padding-right:14px;}
+	
+	.image{display:none;}
+  	.text{width:200%; }
+  	.text h5{width:100%; text-align:center; font-size:73px; margin-left:0px;}
+	.info{width:130%; margin-left:170px;}
+	.aboutus p{font-size:12px;}
+	#i3{display:none;}
+	
+  
+}
+@media screen and (max-width:768px)
+{
+	
+	.topnav a:not(:first-child)
+{
+	display: none;
+}
+.topnav a.icon {
+	float: right;
+	display: block;
+}
+
+
+.topnav.responsive {
+	position: relative;
+}
+.topnav.responsive .icon {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.topnav.responsive a {
+	float: none;
+	display: block;
+	text-align: left;
+}
+	
+}
+}
+
+@media screen and (max-width:450px)
+{
+	.text h5{width:auto; font-size:27px; margin-left:10px;}
+	.info{margin-left:25px;}
+	.aboutus h4{display:none;}
+	img{margin-top:10px;}
+	.images a{margin-left:75px;}
+	.connectwithus{float:left;}
+	.footer_logo a{padding-top:0px;}
+	
+	
+@media screen and (max-width:320px)
+{
+	.text h5{width:auto; font-size:19px; margin-left:5px;}
+	.info{margin-left:30px; width:76%;}
+	.images a{margin-left:20px;}
+	.footer_menu li a{padding-right:35px;}
+	.footer_menu p{font-size:13px;}
+	.footer_menu li{padding-top:0px;}
+	
+}
